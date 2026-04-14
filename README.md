@@ -57,6 +57,8 @@ olist-ab-testing/
 | Mean Review Score | 4.30 | 2.27 |
 | Std Dev | 1.15 | 1.57 |
 
+![Delivery Accuracy vs Review Score](results/exp1_delivery_accuracy_vs_review.png)
+
 - Mann-Whitney p-value: 0.0000
 - Cohen's d: 1.47 (very large effect)
 - 95% CI: (1.99, 2.06)
@@ -78,6 +80,8 @@ olist-ab-testing/
 | Mean Delivery Time | 6.1 days | 15.5 days |
 | Std Dev | 6.0 days | 10.3 days |
 
+![Distance vs Delivery Time](results/exp2_distance_vs_delivery_time.png)
+
 - Mann-Whitney p-value: 0.0000
 - Cohen's d: 1.13 (large effect)
 - 95% CI: (-9.60, -9.35)
@@ -97,6 +101,8 @@ olist-ab-testing/
 |--------|--------|------------|
 | Mean Delivery Time | 13.04 days | 10.32 days |
 | Std Dev | 9.2 days | 7.8 days |
+
+![Payment Method vs Delivery Time](results/exp3_payment_method_vs_delivery_time.png)
 
 - Mann-Whitney p-value: 0.0000
 - Cohen's d: 0.31 (small effect)
@@ -118,6 +124,8 @@ olist-ab-testing/
 |--------|-------|------|
 | Mean Review Score | 4.11 | 3.39 |
 | Std Dev | 1.23 | 1.58 |
+
+![Shipping Speed vs Review Score](results/exp4_shipping_speed_vs_review.png)
 
 - Mann-Whitney p-value: 0.0000
 - Cohen's d: 0.49 (medium effect)
